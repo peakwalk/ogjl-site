@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Oilfield Jobs — Field Pin</title>
+  <desc id="desc">A mint location pin with a drilling derrick cut from its face on a deep green tile.</desc>
+  <rect id="background" width="1024" height="1024" fill="#082628"/>
+  <path id="pin-with-rig-cutout" fill="#62E8C7" fill-rule="evenodd" d="
+    M512 170
+    C345 170 222 292 222 449
+    C222 600 363 734 489 848
+    Q512 869 535 848
+    C661 734 802 600 802 449
+    C802 292 679 170 512 170 Z
+    M445 272 H579 V302 H576 L647 543 H661 V592
+    H363 V543 H377 L448 302 H445 Z
+    M475 302 H549 L558 333 L512 384 L466 333 Z
+    M458 362 L491 409 L421 507 Z
+    M566 362 L603 507 L533 409 Z
+    M512 432 L598 543 H426 Z"/>
+</svg>
