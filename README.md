@@ -12,7 +12,7 @@ Use Node.js 24 and run `npm run build`. Open `public/index.html` to review the s
 - Google Play links to `tech.peakwalk.apps.joblist.drilling`, currently listed as Drilling Jobs.
 - The APK card stays disabled until a publicly distributed production APK is available. Use a direct HTTPS link to that version’s APK file.
 
-Operational support, privacy questions and account-deletion requests use `matt@eaxmarketplace.com`. Technical support uses `hydra1983@gmail.com`. Account-deletion requests are handled manually after account ownership is verified. The website privacy notice covers website analytics. Publishing the approved Oilfield Jobs app privacy policy and terms is a separate release step.
+Operational support, privacy questions and account-deletion requests use `support@eaxmarketplace.com`. Technical support uses `hydra1983@gmail.com`. Account-deletion requests are handled manually after account ownership is verified. The website privacy notice covers website analytics. Publishing the approved Oilfield Jobs app privacy policy and terms is a separate release step.
 
 ## Google Analytics
 
