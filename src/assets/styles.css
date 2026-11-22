@@ -210,7 +210,9 @@ h1 span { color: var(--mint); }
   text-align: start; border: 1px solid #cdeadd; border-radius: 12px; background: #e5f6eb; color: var(--ink); cursor: pointer;
   transition: background-color 160ms ease-out;
 }
-.download-card:hover { background: var(--mint); }
+.download-card:not(:disabled):hover { background: var(--mint); }
+.download-card:disabled { background: #dae7df; color: #4a6057; border-color: #c3d5ca; cursor: not-allowed; }
+.download-card:disabled .download-icon { opacity: .65; }
 .download-icon { width: 32px; height: 32px; flex: 0 0 32px; display: grid; place-items: center; }
 .download-icon img { max-height: 100%; object-fit: contain; }
 .download-copy { display: grid; gap: 4px; }
