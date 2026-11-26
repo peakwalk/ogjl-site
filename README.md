@@ -16,7 +16,7 @@ Operational support, privacy questions and account-deletion requests use `suppor
 
 ## Google Analytics
 
-The website uses the Web Measurement ID `G-RNYP065SYV` from the legacy Drilling Jobs production configuration in `joblistexpo`. A GA4 property can receive data from separate Web, iOS and Android streams. The current `joblistmobile` Firebase configuration is for notifications. Joining reports for that app requires GA4 instrumentation and native streams in the same property. The app's Firebase service configuration stays with the app.
+The website uses the Web Measurement ID `G-RNYP065SYV` from the legacy Drilling Jobs production configuration in `joblistexpo`. A GA4 property can receive data from separate Web, iOS and Android streams. The `joblistmobile` app also uses Google Analytics and Firebase Crashlytics in the existing `oil-gas-drilling-jobs` Firebase project, with separate Firebase Apps and Analytics streams for Beta, Preview and Production. App collection starts on by default and can be changed in Profile → Privacy & Data; crash-report changes take effect after restarting the app. Website analytics continues to use its separate consent choice. The app's Firebase service configuration stays with the app.
 
 Google Analytics loads after consent on the HTTPS homepage. It records page views and the `download_click` event with `download_channel` values `app_store` and `google_play`. Visitors can change their choice using **Analytics settings**. Verify the hostname and stream in the GA4 Realtime report when Analytics console access is available.
 
