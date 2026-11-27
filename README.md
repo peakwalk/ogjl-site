@@ -10,7 +10,7 @@ Use Node.js 24 and run `npm run build`. Open `public/index.html` to review the s
 
 - App Store uses Apple app ID `6833812733` and shows the current pending-release message.
 - Google Play links to `tech.peakwalk.apps.joblist.drilling`, currently listed as Drilling Jobs.
-- The APK card stays disabled until a publicly distributed production APK is available. Use a direct HTTPS link to that version’s APK file.
+- The APK card downloads Oilfield Jobs 1.0.2 (20002), the universal APK generated and signed by Google Play, hosted as Zealot production release #205. Its SHA-256 is `4eab509d692e33ef6b6b455da1ee2e4b38cc4379a47fee4475786fa1bbf70159`; the Google Play signing certificate SHA-256 is `baa5395e42ad6707da26095bc926a43d436a727bbbb8fc9d593c77ef060c267b`. Keep this direct HTTPS link pinned to the verified release when updating it.
 
 Operational support, privacy questions and account-deletion requests use `support@eaxmarketplace.com`. Account-deletion requests are handled manually after account ownership is verified. The website privacy notice covers website analytics. The app documents are published separately at `app-privacy-policy.html` and `app-terms-of-service.html`, effective 25 November 2026. The existing website privacy notice and terms continue to cover the website.
 
@@ -18,7 +18,7 @@ Operational support, privacy questions and account-deletion requests use `suppor
 
 The website uses the Web Measurement ID `G-RNYP065SYV` from the legacy Drilling Jobs production configuration in `joblistexpo`. A GA4 property can receive data from separate Web, iOS and Android streams. The `joblistmobile` app also uses Google Analytics and Firebase Crashlytics in the existing `oil-gas-drilling-jobs` Firebase project, with separate Firebase Apps and Analytics streams for Beta, Preview and Production. App collection starts on by default and can be changed in Profile → Privacy & Data; crash-report changes take effect after restarting the app. Website analytics continues to use its separate consent choice. The app's Firebase service configuration stays with the app.
 
-Google Analytics loads after consent on the HTTPS homepage. It records page views and the `download_click` event with `download_channel` values `app_store` and `google_play`. Visitors can change their choice using **Analytics settings**. Verify the hostname and stream in the GA4 Realtime report when Analytics console access is available.
+Google Analytics loads after consent on the HTTPS homepage. It records page views and the `download_click` event with `download_channel` values `app_store`, `google_play` and `apk`. Visitors can change their choice using **Analytics settings**. Verify the hostname and stream in the GA4 Realtime report when Analytics console access is available.
 
 ## Assets
 
